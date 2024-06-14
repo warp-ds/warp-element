@@ -1,0 +1,5 @@
+node_modules
+.eik
+dist
+types
+index.d.ts
