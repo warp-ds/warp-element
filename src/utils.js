@@ -1,6 +1,4 @@
-export const isServer = () => {
-  return !(typeof window !== "undefined");
-};
+export const isServer = () => !(typeof window !== "undefined");
 
 class StyleLoadResult {
   isServer = false;
@@ -20,7 +18,7 @@ const loadStylesSync = (urls = []) => {
   }
 
   for (const url of urls) {
-    const xhr = new XMLHttpRequest()
+    const xhr = new XMLHttpRequest();
     xhr.open("GET", url, false);
     xhr.send();
     loadResult.css += xhr.responseText;
@@ -40,7 +38,6 @@ export const getGlobalStylesSync = () => {
   return loadStylesSync(urls);
 };
 
-
 const loadStyles = async (urls = []) => {
   const loadResult = new StyleLoadResult();
   const server = isServer();
@@ -54,15 +51,11 @@ const loadStyles = async (urls = []) => {
   }
 
   const requests = await Promise.all(
-      urls.map((url) => {
-        return fetch(url);
-      })
+    urls.map((url) => fetch(url))
   );
 
   const cssResult = await Promise.all(
-      requests.map((response) => {
-        return response.text();
-      })
+    requests.map((response) => response.text())
   );
 
   for (const sheet of cssResult) {
@@ -80,5 +73,5 @@ export const getGlobalStyles = async () => {
     `https://assets.finn.no/pkg/@warp-ds/css/v1/resets.css`,
     `https://assets.finn.no/pkg/@warp-ds/css/v1/components.css`,
   ];
-  return await loadStyles(urls);
+  return loadStyles(urls);
 };
