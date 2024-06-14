@@ -1,0 +1,6 @@
+tap-snapshots/
+coverage/
+benchmark/
+example/
+dist/
+esbuild.js

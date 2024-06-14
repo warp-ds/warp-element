@@ -1,9 +1,5 @@
-import { CSSResult, unsafeCSS } from "lit";
-import {
-  getGlobalStyles,
-  getGlobalStylesSync,
-  isServer,
-} from "./utils.js";
+import { unsafeCSS } from "lit";
+import { getGlobalStyles, getGlobalStylesSync, isServer } from "./utils.js";
 import "construct-style-sheets-polyfill";
 
 /**
@@ -14,6 +10,7 @@ import "construct-style-sheets-polyfill";
  *
  * @type {(import("lit").CSSResultGroup | import("lit").CSSResult | import("lit").CSSResultOrNative | import("lit").CSSResultArray)}
  */
+// eslint-disable-next-line import/no-mutable-exports
 let styles;
 
 if (isServer()) {
