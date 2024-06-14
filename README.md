@@ -1,4 +1,4 @@
-# @warp/elements-core
+# @warp-ds/elements-core
 
 ## Introduction
 
