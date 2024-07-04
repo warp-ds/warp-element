@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/warp-ds/warp-element/compare/v2.0.0...v2.0.1) (2024-07-04)
+
+
+### Bug Fixes
+
+* update to Lit 3 (which was the intention for v2) ([#3](https://github.com/warp-ds/warp-element/issues/3)) ([21f96f4](https://github.com/warp-ds/warp-element/commit/21f96f46daf65812c0b871e9a759dad27c37fefd))
+
 # [2.0.0](https://github.com/warp-ds/warp-element/compare/v1.0.0...v2.0.0) (2024-07-02)
 
 
