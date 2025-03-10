@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/warp-ds/warp-element/compare/v2.0.1...v2.0.2) (2025-03-10)
+
+
+### Bug Fixes
+
+* update eik import map ([#5](https://github.com/warp-ds/warp-element/issues/5)) ([d5b6653](https://github.com/warp-ds/warp-element/commit/d5b665348ad42e1144fb1e27480e98c4fda80cc6))
+
 ## [2.0.1](https://github.com/warp-ds/warp-element/compare/v2.0.0...v2.0.1) (2024-07-04)
 
 
