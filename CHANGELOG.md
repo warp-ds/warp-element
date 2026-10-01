@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/warp-ds/warp-element/compare/v2.0.3...v2.0.4) (2026-10-01)
+
+
+### Bug Fixes
+
+* include warp-ds/elements global styles ([#8](https://github.com/warp-ds/warp-element/issues/8)) ([76683f1](https://github.com/warp-ds/warp-element/commit/76683f1f21aee3951f5928737313650230aceddd))
+
 ## [2.0.3](https://github.com/warp-ds/warp-element/compare/v2.0.2...v2.0.3) (2026-10-01)
 
 
