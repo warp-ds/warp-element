@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/warp-ds/warp-element/compare/v2.0.2...v2.0.3) (2026-10-01)
+
+
+### Bug Fixes
+
+* remove dependency on podium/element module ([#6](https://github.com/warp-ds/warp-element/issues/6)) ([3af9aae](https://github.com/warp-ds/warp-element/commit/3af9aae94a6b14c41982debc8aa6f74323e0b03b))
+
 ## [2.0.2](https://github.com/warp-ds/warp-element/compare/v2.0.1...v2.0.2) (2025-03-10)
 
 

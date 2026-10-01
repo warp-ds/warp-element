@@ -1,7 +1,7 @@
 {
   "name": "@warp-ds/elements-core",
   "type": "module",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "",
   "main": "./src/element.js",
   "files": [
@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.23.3",
-    "@eik/cli": "^3.2.1",    
+    "@eik/cli": "^3.2.1",
     "@eik/esbuild-plugin": "^1.1.36",
     "@semantic-release/changelog": "7.0.0",
     "@semantic-release/commit-analyzer": "13.0.1",
