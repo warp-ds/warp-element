@@ -32,8 +32,9 @@ const loadStylesSync = (urls = []) => {
  */
 export const getGlobalStylesSync = () => {
   const urls = [
-    `https://assets.finn.no/pkg/@warp-ds/css/v2/resets.css`,
-    `https://assets.finn.no/pkg/@warp-ds/css/v2/components.css`,
+    `https://assets.finn.no/pkg/@warp-ds/css/~2/resets.css`,
+    `https://assets.finn.no/pkg/@warp-ds/css/~2/components.css`,
+    `https://assets.finn.no/pkg/@warp-ds/elements/~2/styles.css`,
   ];
   return loadStylesSync(urls);
 };
@@ -70,8 +71,9 @@ const loadStyles = async (urls = []) => {
  */
 export const getGlobalStyles = async () => {
   const urls = [
-    `https://assets.finn.no/pkg/@warp-ds/css/v2/resets.css`,
-    `https://assets.finn.no/pkg/@warp-ds/css/v2/components.css`,
+    `https://assets.finn.no/pkg/@warp-ds/css/~2/resets.css`,
+    `https://assets.finn.no/pkg/@warp-ds/css/~2/components.css`,
+    `https://assets.finn.no/pkg/@warp-ds/elements/~2/styles.css`,
   ];
   return loadStyles(urls);
 };
