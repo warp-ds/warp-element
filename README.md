@@ -1,5 +1,7 @@
 # @warp-ds/elements-core
 
+ℹ️ Development of Warp has moved in-house. This repository is read-only.
+
 ## Introduction
 
 The `@warp-ds/elements-core` package focuses on delivering a `WarpElement` component built with Lit, for use as a base class for custom elements in [@warp-ds/elements](https://github.com/warp-ds/elements) package.
